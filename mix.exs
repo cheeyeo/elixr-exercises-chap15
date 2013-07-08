@@ -10,7 +10,7 @@ defmodule Stackapp.Mixfile do
   # Configuration for the OTP application
   def application do
     [
-      mod: { Stackapp, [] },
+      mod: { Stackapp, [:hello] },
 	  registered: [ :stack ]
     ]
   end

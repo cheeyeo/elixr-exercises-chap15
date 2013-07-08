@@ -24,9 +24,8 @@ defmodule Stackapp.Server do
     { :ok, {current_list, stash_pid} }
   end
 
-  def handle_call(:pop, _from, {current_list, stash_pid}) do
-    [h|t] = current_list
-    {:reply, h, {t,stash_pid}}
+  def handle_call(:pop, _from, {[h|stack], stash_pid}) do
+    {:reply, h, {stack,stash_pid}}
   end
 
   def handle_cast({:push, item},{current_list, stash_pid}) do
