@@ -1,4 +1,5 @@
-== OTP Stack application 
+OTP Stack application
+================================
 
 Example OTP application from Chapter 16 of Programming Elixir book
 
