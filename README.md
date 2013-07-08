@@ -3,7 +3,7 @@ OTP Stack application
 
 Example OTP application from Chapter 16 of Programming Elixir book
 
-This is building on chapter 14 of the book whereby we create a basic OTP implementation of a stack
+This is building on chapter 15 of the book whereby we create a basic OTP implementation of a stack
 
 The difference with this version is that
 
